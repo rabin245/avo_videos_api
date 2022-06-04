@@ -1,0 +1,13 @@
+As part of the interview process, please complete the given nodejs task
+before the deadline.
+1. Create 2 tables in the DB (MYSQL) and ensure a one to many
+relationship between the database tables. Use below tables
+Video (NAME,DESCRIPTION,ACTIVE)
+VideoList(Name, Link)
+2. One Video has many VideoLists
+3. Post DB creation , write a nodejs program which will maintain
+relationships and perform CRUD operations on it.
+4. Use expressjs to expose api
+Please submit the task before 5th June 2022, 12:00 P.M. Make sure you
+deploy the task in Github and mail us the link for the repo after you
+are done with the task.
