@@ -6,7 +6,7 @@ const sql = `CREATE TABLE IF NOT EXISTS video_list (
     link VARCHAR(255) NOT NULL,
     video_id INT NOT NULL,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP,
+    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     FOREIGN KEY (video_id) REFERENCES videos(id) ON DELETE CASCADE
     );`;
 

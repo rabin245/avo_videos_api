@@ -6,7 +6,7 @@ const sql = `CREATE TABLE IF NOT EXISTS videos (
     description TEXT ,
     active BOOLEAN NOT NULL DEFAULT true,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP,
+    updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id)
     );`;
 
